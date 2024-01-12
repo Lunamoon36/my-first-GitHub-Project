@@ -1,0 +1,69 @@
+body {
+  background-color: aqua;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-family: "Caveat", cursive;
+  font-size: 60px;
+  margin: 0;
+}
+main {
+  padding: 30px 0;
+}
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 60px auto;
+  max-width: 600px;
+}
+header {
+  padding-bottom: 30px;
+  border-bottom: 1px solid aqua;
+}
+.enterCity {
+  padding: 20px;
+  border-radius: 6px;
+  width: 75%;
+  border: none;
+  background-color: aqua;
+  font-size: 17px;
+}
+.searchButton {
+  background-color: blueviolet;
+  color: white;
+  padding: 20px;
+  border-radius: 4px;
+  border: none;
+  font-size: 17px;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+.temperatureNow {
+  margin-top: 15px;
+}
+.temperatureEmoji {
+  font-size: 30px;
+}
+.temperature {
+  font-size: 60px;
+}
+.temperatureUnit {
+  font-size: 40px;
+}
+footer {
+  border-top: 1px solid aqua;
+}
+footer p {
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+}
+.myProfileLink {
+  text-decoration: none;
+  color: blueviolet;
+}
+.myProfileLink:hover {
+  text-decoration: underline;
+}
