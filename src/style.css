@@ -66,6 +66,8 @@ footer p {
   text-decoration: none;
   color: blueviolet;
 }
-.myProfileLink:hover {
+.myProfileLink,
+.myGitHubLink,
+.myNetlifyLink:hover {
   text-decoration: underline;
 }
