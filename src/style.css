@@ -15,7 +15,7 @@ main {
   padding: 30px;
   border-radius: 10px;
   margin: 60px auto;
-  max-width: 600px;
+  max-width: 640px;
 }
 header {
   padding-bottom: 30px;
@@ -60,7 +60,9 @@ footer p {
   font-family: "Inconsolata", monospace;
   text-align: center;
 }
-.myProfileLink {
+.myProfileLink,
+.myGitHubLink,
+.myNetlifyLink {
   text-decoration: none;
   color: blueviolet;
 }
